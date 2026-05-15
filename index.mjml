@@ -13,8 +13,8 @@
 
     <!-- Google Font -->
     <mj-font
-      name="Lora"
-      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     />
 
     <!--
@@ -61,13 +61,13 @@
     <mj-attributes>
       <!-- Entire Email -->
       <mj-all
-        font-family="'Lora', Georgia, 'Times New Roman', Arial, serif"
+        font-family="'Inter', Georgia, 'Times New Roman', Arial, serif"
         color="#444444"
         line-height="1.5"
       />
 
       <!-- Body -->
-      <mj-body background-color="#f4f4f4" />
+      <mj-body background-color="#f1f3fb" />
 
       <!-- Sections -->
       <mj-section padding="0" background-color="#ffffff" />
@@ -183,7 +183,7 @@
         .dm-bg-section-soft > table,
         .dm-bg-section-soft > table > tbody > tr > td,
         .dm-bg-section-soft td {
-          background-color: #141414 !important;
+          background-color: #19123b !important;
         }
 
         /* ── Card / gray section backgrounds ── */
@@ -301,6 +301,314 @@
     </mj-raw>
   </mj-head>
 
-  <mj-body width="600px" background-color="#f4f4f4" css-class="dm-bg-outer">
+  <mj-body width="600px" background-color="#f1f3fb" css-class="dm-bg-outer">
+    <!-- ============================================================ -->
+    <!-- LOGO                                                          -->
+    <!-- ============================================================ -->
+    <mj-section background-color="#f1f3fb" css-class="dm-bg-section-soft">
+      <mj-column vertical-align="top">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778835661/finwise/images/finwise-logo_h0bqog.png"
+          alt="Finwise SaSS"
+          href="https://taqwaitagency.com"
+          padding="16px 0"
+          width="140px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Finwise Title -->
+    <mj-section
+      padding="30px 0"
+      background-color="#f1f3fb"
+      css-class="dm-bg-section"
+    >
+      <mj-column>
+        <mj-text
+          css-class="dm-text-h"
+          font-weight="800"
+          align="center"
+          font-size="28px"
+          color="#333333"
+          line-height="1.4"
+          text-transform="capitalize"
+        >
+          <span>Let's get you</span> <br />
+          <span>setup, John!</span>
+        </mj-text>
+        <mj-text align="center" padding="20px 0 0" css-class="dm-text-h">
+          <span>Follow these steps to get the</span><br />
+          <span>most out of Finwise</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- 2 column steps -->
+    <mj-wrapper padding="15px">
+      <!-- Card top rounded padding -->
+      <mj-section
+        background-color="#ffffff"
+        border-radius="16px 16px 0 0"
+        padding="28px 24px 0"
+        css-class="dm-bg-section-soft"
+      >
+        <mj-column>
+          <mj-spacer height="1px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- 2 Column section Number + Text -->
+      <mj-section
+        background-color="#ffffff"
+        padding="0px 24px"
+        css-class="dm-bg-section-soft"
+      >
+        <mj-group>
+          <!-- Circle number -->
+          <mj-column width="15%" vertical-align="top" padding="0">
+            <mj-text align="right">
+              <span
+                style="
+                  display: inline-block;
+                  width: 44px;
+                  height: 44px;
+                  border-radius: 50%;
+                  background-color: #5b4fcf;
+                  color: #ffffff;
+                  font-size: 16px;
+                  font-weight: 700;
+                  line-height: 44px;
+                  text-align: center;
+                  font-family: 'Inter', Arial, sans-serif;
+                "
+                >1</span
+              >
+            </mj-text>
+          </mj-column>
+
+          <!-- Step title + description -->
+          <mj-column width="85%" vertical-align="top" padding="0 0 0 30px">
+            <mj-text
+              padding="0"
+              font-size="16px"
+              font-weight="700"
+              color="#5b4fcf"
+              line-height="1.3"
+            >
+              Connect Your Account
+            </mj-text>
+            <mj-spacer height="4px" />
+            <mj-text
+              padding="0"
+              font-size="13px"
+              color="#666666"
+              line-height="1.5"
+              css-class="dm-text-h"
+            >
+              Securely connect your bank or payment provider.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Spacer between steps -->
+      <mj-section
+        background-color="#ffffff"
+        padding="0px 24px"
+        css-class="dm-bg-section-soft"
+      >
+        <mj-column>
+          <mj-spacer height="24px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- 2 Column section Number + Text -->
+      <mj-section
+        background-color="#ffffff"
+        padding="0px 24px"
+        css-class="dm-bg-section-soft"
+      >
+        <mj-group>
+          <!-- Circle number -->
+          <mj-column width="15%" vertical-align="top" padding="0">
+            <mj-text align="right">
+              <span
+                style="
+                  display: inline-block;
+                  width: 44px;
+                  height: 44px;
+                  border-radius: 50%;
+                  background-color: #5b4fcf;
+                  color: #ffffff;
+                  font-size: 16px;
+                  font-weight: 700;
+                  line-height: 44px;
+                  text-align: center;
+                  font-family: 'Inter', Arial, sans-serif;
+                "
+                >2</span
+              >
+            </mj-text>
+          </mj-column>
+
+          <!-- Step title + description -->
+          <mj-column width="85%" vertical-align="top" padding="0 0 0 30px">
+            <mj-text
+              padding="0"
+              font-size="16px"
+              font-weight="700"
+              color="#5b4fcf"
+              line-height="1.3"
+            >
+              Customize Settings
+            </mj-text>
+            <mj-spacer height="4px" />
+            <mj-text
+              padding="0"
+              font-size="13px"
+              color="#666666"
+              line-height="1.5"
+              css-class="dm-text-h"
+            >
+              Set your performances and business details.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Spacer between steps -->
+      <mj-section
+        background-color="#ffffff"
+        padding="0 24px"
+        css-class="dm-bg-section-soft"
+      >
+        <mj-column>
+          <mj-spacer height="24px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- 2 Column section Number + Text -->
+      <mj-section
+        background-color="#ffffff"
+        padding="0px 24px"
+        css-class="dm-bg-section-soft"
+      >
+        <mj-group>
+          <!-- Circle number -->
+          <mj-column width="15%" vertical-align="top" padding="0">
+            <mj-text align="right">
+              <span
+                style="
+                  display: inline-block;
+                  width: 44px;
+                  height: 44px;
+                  border-radius: 50%;
+                  background-color: #5b4fcf;
+                  color: #ffffff;
+                  font-size: 16px;
+                  font-weight: 700;
+                  line-height: 44px;
+                  text-align: center;
+                  font-family: 'Inter', Arial, sans-serif;
+                "
+                >3</span
+              >
+            </mj-text>
+          </mj-column>
+
+          <!-- Step title + description -->
+          <mj-column
+            width="85%"
+            vertical-align="top"
+            padding="0px 0px 0px 30px"
+          >
+            <mj-text
+              padding="0"
+              font-size="16px"
+              font-weight="700"
+              color="#5b4fcf"
+              line-height="1.3"
+            >
+              Start Tracking
+            </mj-text>
+            <mj-spacer height="4px" />
+            <mj-text
+              padding="0"
+              font-size="13px"
+              color="#666666"
+              line-height="1.5"
+              css-class="dm-text-h"
+            >
+              Track your income, expanses, and grow your business.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- MJ Border -->
+      <mj-section css-class="dm-bg-section-soft">
+        <mj-column>
+          <mj-divider
+            border-style="solid"
+            border-color="#e8e8e8"
+            border-width="2px"
+            width="100%"
+            align="left"
+            padding="15px 30px 0"
+            css-class="dm-div-light"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- View Order Button  -->
+      <!-- MJML Large Button -->
+      <mj-section padding="15px 0px 0px" css-class="dm-bg-section-soft">
+        <mj-column>
+          <mj-button
+            width="220px"
+            line-height="1.1"
+            font-size="15px"
+            background-color="#5b44c6"
+            text-transform="uppercase"
+            href="https://taqwaitagency.com"
+            inner-padding="15px 0"
+            css-class="dm-btn-primary"
+          >
+            Go to dashboard
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card bottom rounded padding -->
+      <mj-section
+        background-color="#ffffff"
+        border-radius="0 0 16px 16px"
+        padding="0 24px 28px"
+        css-class="dm-bg-section-soft"
+      >
+        <mj-column>
+          <mj-spacer height="1px" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section
+      padding="30px 0"
+      background-color="#f1f3fb"
+      css-class="dm-bg-section"
+    >
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="14px"
+          font-weight="500"
+          css-class="dm-text-h"
+        >
+          <span>Questions? We are here to help</span> <br />
+          <span>Reply to this email anytime</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
